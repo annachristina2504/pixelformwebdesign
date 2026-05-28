@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixel Form Web Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo" aria-label="Pixel Form Web Design">
+        <div class="logo-inner">
+          <div class="logo-bar"></div>
+          <div class="logo-text">
+            <span class="logo-main">PIXEL FORM</span>
+            <span class="logo-sub">WEB DESIGN</span>
+          </div>
+        </div>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav-cta">Get Started</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-accent-line"></div>
+      <h1 class="hero-headline">Modern Websites<br>Built with AI</h1>
+      <p class="hero-sub">Fast. Sharp. Professional.</p>
+      <a href="#contact" class="btn btn-primary">Get a Free Demo</a>
+    </div>
+    <div class="hero-grid-overlay" aria-hidden="true"></div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Services</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="0"/>
+              <path d="M8 21h8M12 17v4"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Web Design</h3>
+          <p class="service-desc">Sharp, modern layouts built with intention. Every pixel placed to reflect your brand and convert visitors into clients.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <polyline points="16 18 22 12 16 6"/>
+              <polyline points="8 6 2 12 8 18"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Development</h3>
+          <p class="service-desc">Clean, performant code with fast load times. Built from scratch or on modern platforms — no bloat, no shortcuts.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="5" y="2" width="14" height="20" rx="0"/>
+              <line x1="12" y1="18" x2="12" y2="18"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Mobile Responsive</h3>
+          <p class="service-desc">Every site is built to look and function perfectly across all screen sizes — phones, tablets, and desktops.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/>
+            </svg>
+          </div>
+          <h3 class="service-title">AI-Powered Speed</h3>
+          <p class="service-desc">AI-assisted design and development means faster delivery, lower cost, and higher consistency without sacrificing quality.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="portfolio-grid">
+
+        <div class="portfolio-card">
+          <div class="portfolio-card-inner">
+            <div class="portfolio-mockup" aria-hidden="true">
+              <div class="mockup-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mockup-body">
+                <div class="mockup-hero-block"></div>
+                <div class="mockup-lines">
+                  <div class="mockup-line wide"></div>
+                  <div class="mockup-line medium"></div>
+                  <div class="mockup-line short"></div>
+                </div>
+                <div class="mockup-grid-blocks">
+                  <div class="mockup-block"></div>
+                  <div class="mockup-block"></div>
+                  <div class="mockup-block"></div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-label">Demo Project</span>
+              <h3 class="portfolio-name">Dietz Engineering</h3>
+              <p class="portfolio-type">Civil Engineering Website</p>
+              <p class="portfolio-desc">A professional corporate site for a civil engineering firm. Built with a clean, authoritative layout to establish trust and showcase project work.</p>
+              <span class="portfolio-link">
+                Demo Project &mdash; Contact for details
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-inner">
+        <div class="about-accent"></div>
+        <div class="about-content">
+          <div class="section-header">
+            <h2 class="section-title">About</h2>
+            <div class="section-line"></div>
+          </div>
+          <div class="about-text">
+            <p class="about-lead">Solo freelance web designer based in <strong>College Station, TX</strong>.</p>
+            <p>Pixel Form Web Design delivers sharp, modern websites for businesses that want a professional online presence without the agency price tag. Every site is designed with precision, built with clean code, and delivered fast — using the latest AI-assisted design workflows to give you more for less.</p>
+            <p>Whether you're launching from scratch or refreshing an outdated site, I work directly with you from concept to launch.</p>
+          </div>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Custom Built</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">AI</span>
+              <span class="stat-label">Assisted Workflow</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">TX</span>
+              <span class="stat-label">Based & Remote-Ready</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-inner">
+        <div class="contact-info">
+          <p class="contact-tagline">Ready to build something sharp?</p>
+          <div class="contact-detail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <a href="mailto:pixelformwebdesign@gmail.com">pixelformwebdesign@gmail.com</a>
+          </div>
+          <div class="contact-detail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>College Station, TX</span>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What are you building?" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <div class="form-status" id="formStatus" role="alert" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-accent-line"></div>
+    <div class="container">
+      <div class="footer-inner">
+        <a href="#hero" class="logo" aria-label="Pixel Form Web Design">
+          <div class="logo-inner">
+            <div class="logo-bar"></div>
+            <div class="logo-text">
+              <span class="logo-main">PIXEL FORM</span>
+              <span class="logo-sub">WEB DESIGN</span>
+            </div>
+          </div>
+        </a>
+        <p class="footer-copy">&copy; 2026 Pixel Form Web Design. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
